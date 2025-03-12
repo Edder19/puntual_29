@@ -1,15 +1,9 @@
 ﻿
 namespace Puntual29;
-
-
-
-
 class Ejercicio29
 {
     static void Main()
     {
-
-
         {
             while (true)
             {
