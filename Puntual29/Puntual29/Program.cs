@@ -9,15 +9,12 @@ class Ejercicio29
             {
                 Console.Write("Ingrese el puente (o escriba 'salir' para terminar): ");
                 string puente = Console.ReadLine() ?? "";
-                if (puente.ToLower() == "salir") break;
+                if (puente.ToLower() == "salir") 
+                    break;
                 Console.WriteLine(EsValido(puente) ? "VALIDO" : "INVALIDO");
             }
         }
-        {
-            Console.Write("Ingrese el puente: ");
-            string puente = Console.ReadLine() ?? "";
-            Console.WriteLine(EsValido(puente) ? "VALIDO" : "INVALIDO");
-        }
+        
     }
 
     public static bool EsValido(string puente)
